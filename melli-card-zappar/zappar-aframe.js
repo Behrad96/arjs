@@ -7795,7 +7795,6 @@
         return (
           u.messageManager.onIncomingMessage.bind((t) => {
             var r, n;
-            t.t = "zappar";
             switch (t.t) {
               case "zappar":
                 null === (r = l.Pipeline.get(t.p)) ||

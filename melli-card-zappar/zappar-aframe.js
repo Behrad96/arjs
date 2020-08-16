@@ -1,4 +1,3 @@
-alert("Hello RMirage");
 !(function (e, t) {
   "object" == typeof exports && "object" == typeof module
     ? (module.exports = t())

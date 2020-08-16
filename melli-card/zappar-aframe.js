@@ -7811,29 +7811,29 @@ alert("Hello RMirage");
                   void 0 === n ||
                   n.cameraTokenReturn(a.token, a.d);
                 break;
-              //   case "licerr": {
-              //     let e = document.createElement("div");
-              //     (e.innerHTML =
-              //       "Visit <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
-              //       (e.style.position = "absolute"),
-              //       (e.style.bottom = "20px"),
-              //       (e.style.width = "80%"),
-              //       (e.style.backgroundColor = "black"),
-              //       (e.style.color = "white"),
-              //       (e.style.borderRadius = "10px"),
-              //       (e.style.padding = "10px"),
-              //       (e.style.fontFamily = "sans-serif"),
-              //       (e.style.textAlign = "center"),
-              //       (e.style.left = "10%"),
-              //       (e.style.zIndex = Number.MAX_SAFE_INTEGER.toString());
-              //     let t = document.createElement("span");
-              //     (t.innerText = " (30)"), e.append(t);
-              //     let r = 30;
-              //     setInterval(function () {
-              //       r--, r >= 0 && (t.innerText = " (" + r.toString() + ")");
-              //     }, 1e3),
-              //       document.body.append(e);
-              //   }
+              case "licerr": {
+                let e = document.createElement("div");
+                (e.innerHTML =
+                  "Visit <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
+                  (e.style.position = "absolute"),
+                  (e.style.bottom = "20px"),
+                  (e.style.width = "80%"),
+                  (e.style.backgroundColor = "black"),
+                  (e.style.color = "white"),
+                  (e.style.borderRadius = "10px"),
+                  (e.style.padding = "10px"),
+                  (e.style.fontFamily = "sans-serif"),
+                  (e.style.textAlign = "center"),
+                  (e.style.left = "10%"),
+                  (e.style.zIndex = Number.MAX_SAFE_INTEGER.toString());
+                let t = document.createElement("span");
+                (t.innerText = " (30)"), e.append(t);
+                let r = 30;
+                setInterval(function () {
+                  r--, r >= 0 && (t.innerText = " (" + r.toString() + ")");
+                }, 1e3),
+                  document.body.append(e);
+              }
             }
           }),
           (h = Object.assign(Object.assign({}, e.impl), {

@@ -16,17 +16,23 @@
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
       <a-text
-        value="Tehran"
+        value="Anzali"
+        look-at="[gps-camera]"
+        scale="120 120 120"
+        gps-entity-place="latitude: 37.4639; longitude: 49.4799;"
+      ></a-text>
+      <a-text
+        value="Rasht"
         look-at="[gps-camera]"
         scale="120 120 120"
         gps-entity-place="latitude: 37.2682; longitude: 49.5891;"
       ></a-text>
-      <!-- <a-text
+      <a-text
         value="Tehran"
         look-at="[gps-camera]"
         scale="120 120 120"
         gps-entity-place="latitude: 35.6892; longitude: 51.3890;"
-      ></a-text> -->
+      ></a-text>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
